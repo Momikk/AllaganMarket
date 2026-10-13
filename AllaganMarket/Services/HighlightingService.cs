@@ -177,7 +177,13 @@ public class HighlightingService : IHostedService
                         else if (needsUpdate)
                         {
                             this.retainerListModified = true;
+                            sellingTextNode->SetText(sellingTextNode->OriginalTextPointer);
                             sellingTextNode->TextColor = ColorFromVector4(ImGuiColors.DalamudYellow);
+                        }
+                        else
+                        {
+                            sellingTextNode->SetText(sellingTextNode->OriginalTextPointer);
+                            sellingTextNode->TextColor = this.originalRetainerListColor.Value;
                         }
                     }
                 }

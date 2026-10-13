@@ -22,8 +22,10 @@ public class InventoryService(
     IPluginLog pluginLog,
     IRetainerService retainerService) : IInventoryService, IDisposable
 {
+    // The upstream 7.55 call-site signature is absent in the CN 7.57 executable.
+    // This original handler-entry signature uniquely matches its .text section.
     [Signature(
-        "E8 ?? ?? ?? ?? E9 ?? ?? ?? ?? 48 8B D7 41 8B CE E8 ?? ?? ?? ?? E9 ?? ?? ?? ?? 48 8B D7 41 8B CE E8 ?? ?? ?? ?? E9 ?? ?? ?? ?? 48 8B D7 41 8B CE E8 ?? ?? ?? ?? E9 ?? ?? ?? ?? 48 8D 57 10",
+        "48 89 74 24 ?? 57 48 81 EC ?? ?? ?? ?? 44 0F B7 42 ??",
         DetourName = nameof(ContainerInfoDetour),
         UseFlags = SignatureUseFlags.Hook)]
     private readonly Hook<ContainerInfoNetworkData>? containerInfoNetworkHook = null;

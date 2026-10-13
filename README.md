@@ -28,7 +28,7 @@
 https://raw.githubusercontent.com/Momikk/DalamudPlugins/main/pluginmaster.json
 ```
 
-当前发布版本为 `1.4.0.2`，面向 Dalamud API 15。安装器显示作者为 Momikk，名称与介绍使用中文。此 fork 的安装包与源码由本仓库维护，原作者为 Critical_Impact。原版 GitHub 发布标签为 4.0.2，Dalamud 实际发布版本为 1.4.0.2，本版与后者对齐。
+当前发布版本为 `1.4.0.3`，面向 Dalamud API 15。安装器显示作者为 Momikk，名称与介绍使用中文。此 fork 的安装包与源码由本仓库维护，原作者为 Critical_Impact。原版 GitHub 发布标签为 4.0.2，Dalamud 实际发布版本为 1.4.0.2，本 fork 以 1.4.0.2 为基线，1.4.0.3 修复国服 7.57 的库存签名与高亮恢复问题。
 
 ## 构建与发布
 
@@ -40,7 +40,7 @@ https://raw.githubusercontent.com/Momikk/DalamudPlugins/main/pluginmaster.json
 
 脚本优先使用国服开发程序集；也可通过 `DALAMUD_HOME` 指定 API 15 程序集目录。输出位于 `AllaganMarket/bin/Release/`，SDK 安装包位于 `AllaganMarket/bin/Release/AllaganMarket/latest.zip`。
 
-已发布安装包位于 `dist/AllaganMarket-1.4.0.2.zip`。发布更新时须同时更新安装包与 `Momikk/DalamudPlugins` 中对应清单的版本和下载地址。完整构建与包内容检查不代表已完成游戏内验收；雇员扫描、市场数据与 Hook 的国服兼容性仍需在游戏中验证。
+已发布安装包位于 `dist/AllaganMarket-1.4.0.3.zip`。发布更新时须同时更新安装包与 `Momikk/DalamudPlugins` 中对应清单的版本和下载地址。完整构建与包内容检查不代表已完成游戏内验收；雇员扫描、市场数据与 Hook 的国服兼容性仍需在游戏中验证。
 
 ## 命令
 
