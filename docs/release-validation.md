@@ -9,3 +9,7 @@
 `dist/AllaganMarket-1.0.0.0.manifest.json` 从实际安装包 manifest 生成，并补充公开安装与更新地址，供统一库链引用。统一库链为 `https://raw.githubusercontent.com/Momikk/DalamudPlugins/main/pluginmaster.json`。
 
 本记录确认构建和分发产物，不代表游戏内验收通过。启用后仍需验证主窗口、初始雇员扫描、销售记录、市场更新和禁用重载；原生结构与 Hook 的国服运行兼容性以实际游戏日志和行为为准。
+
+## 1.4.0.2 元数据更新
+
+作者显示为 Momikk，名称为亚拉戈市场 AllaganMarket，简短和详细描述改为中文，详细描述保留原版来源。原版 GitHub 标签为 4.0.2，官方 DalamudPluginsD17 清单版本为 1.4.0.2，本版对齐实际安装版本。重新构建成功（0 错误、130 警告），已验证 ZIP 内 manifest 与 DLL 版本一致，API 15 不变。历史 1.0.0.0 安装包保留，新清单改用 1.4.0.2。

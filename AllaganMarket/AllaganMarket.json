@@ -1,8 +1,8 @@
 {
-    "Author": "Critical_Impact",
-    "Name": "Allagan Market",
-    "Punchline": "Get your retainer sales organized, track active sales, historical sales and undercutting!",
-    "Description": "Allagan Market's primary purpose is to provide a list of all retainer listings/sales across all characters.\n\nIt'll do it's best to track your sales but it works best when it's always on!",
+    "Author": "Momikk",
+    "Name": "亚拉戈市场 AllaganMarket",
+    "Punchline": "管理雇员销售，追踪上架物品、历史销售与市场压价情况。",
+    "Description": "汇总所有角色的雇员上架物品与销售记录，查看当前销售、历史销售和被其他卖家压价的情况。\n\n建议持续启用插件，以便更完整地记录销售数据。\n\n此版本由 Momikk 维护，基于 Critical_Impact 的 Allagan Market。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Momikk/AllaganMarket",
     "IconUrl": "https://raw.githubusercontent.com/Momikk/AllaganMarket/main/AllaganMarket/Images/logo_small.png",

@@ -1,0 +1,28 @@
+{
+  "Author": "Momikk",
+  "Name": "亚拉戈市场 AllaganMarket",
+  "InternalName": "AllaganMarket",
+  "AssemblyVersion": "1.4.0.2",
+  "Description": "汇总所有角色的雇员上架物品与销售记录，查看当前销售、历史销售和被其他卖家压价的情况。\n\n建议持续启用插件，以便更完整地记录销售数据。\n\n此版本由 Momikk 维护，基于 Critical_Impact 的 Allagan Market。",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Momikk/AllaganMarket",
+  "Tags": [
+    "market",
+    "sales",
+    "retainers"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Momikk/AllaganMarket/main/AllaganMarket/Images/logo_small.png",
+  "Punchline": "管理雇员销售，追踪上架物品、历史销售与市场压价情况。",
+  "AcceptsFeedback": true,
+  "IsHide": false,
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/Momikk/AllaganMarket/main/dist/AllaganMarket-1.4.0.2.zip",
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/Momikk/AllaganMarket/main/dist/AllaganMarket-1.4.0.2.zip",
+  "DownloadCount": 0,
+  "IsTestingExclusive": false,
+  "LastUpdate": 1791897372
+}
