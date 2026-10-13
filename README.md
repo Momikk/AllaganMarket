@@ -20,9 +20,27 @@
 
 ## 开始使用
 
-1. 通过 Dalamud 插件安装器安装 亚拉戈市场 AllaganMarket。
+1. 在 Dalamud 设置的第三方插件仓库中添加下方统一库链，保存后刷新插件列表，搜索 `Allagan Market` 并安装。
 2. 首次安装后，插件会显示配置向导。
 3. 完成配置后，依次访问每位雇员，进行首次扫描。
+
+```text
+https://raw.githubusercontent.com/Momikk/DalamudPlugins/main/pluginmaster.json
+```
+
+当前发布版本为 `1.0.0.0`，面向 Dalamud API 15。安装器中的名称和介绍暂时保留英文。此 fork 的安装包与源码由本仓库维护，原作者为 Critical_Impact。
+
+## 构建与发布
+
+安装 .NET 10 SDK，并通过 XIVLauncherCN 或 XIVLauncher 启动过一次带 Dalamud 的游戏，然后在仓库根目录运行：
+
+```powershell
+.\build.ps1
+```
+
+脚本优先使用国服开发程序集；也可通过 `DALAMUD_HOME` 指定 API 15 程序集目录。输出位于 `AllaganMarket/bin/Release/`，SDK 安装包位于 `AllaganMarket/bin/Release/AllaganMarket/latest.zip`。
+
+已发布安装包位于 `dist/AllaganMarket-1.0.0.0.zip`。发布更新时须同时更新安装包与 `Momikk/DalamudPlugins` 中对应清单的版本和下载地址。完整构建与包内容检查不代表已完成游戏内验收；雇员扫描、市场数据与 Hook 的国服兼容性仍需在游戏中验证。
 
 ## 命令
 

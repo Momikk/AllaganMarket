@@ -1,0 +1,28 @@
+{
+  "Author": "Critical_Impact",
+  "Name": "Allagan Market",
+  "InternalName": "AllaganMarket",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Allagan Market's primary purpose is to provide a list of all retainer listings/sales across all characters.\n\nIt'll do it's best to track your sales but it works best when it's always on!",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Momikk/AllaganMarket",
+  "Tags": [
+    "market",
+    "sales",
+    "retainers"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/Momikk/AllaganMarket/main/AllaganMarket/Images/logo_small.png",
+  "Punchline": "Get your retainer sales organized, track active sales, historical sales and undercutting!",
+  "AcceptsFeedback": true,
+  "IsTestingExclusive": false,
+  "DownloadCount": 0,
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/Momikk/AllaganMarket/main/dist/AllaganMarket-1.0.0.0.zip",
+  "IsHide": false,
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/Momikk/AllaganMarket/main/dist/AllaganMarket-1.0.0.0.zip",
+  "LastUpdate": 1791895964
+}
