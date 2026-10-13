@@ -1,10 +1,10 @@
-# Allagan Market
+# 亚拉戈市场 AllaganMarket
 
 ![插件标志](AllaganMarket/Images/logo_small.png)
 
 ## 简介
 
-**Allagan Market** 是一款 Dalamud 插件，用于追踪所有角色的雇员销售情况。它提供当前上架物品和历史销售的详细信息，并实时监测是否有其他卖家以更低价格出售同类物品。
+**亚拉戈市场 AllaganMarket** 是一款 Dalamud 插件，用于追踪所有角色的雇员销售情况。它提供当前上架物品和历史销售的详细信息，并实时监测是否有其他卖家以更低价格出售同类物品。
 
 ## 功能
 
@@ -20,7 +20,7 @@
 
 ## 开始使用
 
-1. 通过 Dalamud 插件安装器安装 Allagan Market。
+1. 通过 Dalamud 插件安装器安装 亚拉戈市场 AllaganMarket。
 2. 首次安装后，插件会显示配置向导。
 3. 完成配置后，依次访问每位雇员，进行首次扫描。
 
@@ -41,4 +41,4 @@
 
 ## 我的其他插件
 
-- [幻化之王 / GlamourKing](https://github.com/Momikk/GlamourKing)
+- [幻化之王 GlamourKing](https://github.com/Momikk/GlamourKing)
