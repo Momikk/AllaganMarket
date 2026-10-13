@@ -1,50 +1,44 @@
 # Allagan Market
 
-![Logo](AllaganMarket/Images/logo_small.png)
+![插件标志](AllaganMarket/Images/logo_small.png)
 
-## Overview
+## 简介
 
-**Allagan Market** is a Dalamud plugin designed to help you track your retainer sales across all your characters. It provides detailed information on your active and historical sales, as well as tracks undercutting in real-time.
+**Allagan Market** 是一款 Dalamud 插件，用于追踪所有角色的雇员销售情况。它提供当前上架物品和历史销售的详细信息，并实时监测是否有其他卖家以更低价格出售同类物品。
 
-## Features
+## 功能
 
-- **Retainer Sale Tracking**: Automatically tracks all retainer listings across all characters.
-- **Historical Sales Data**: Provides a record of all previous sales, allowing you to track and analyze your sales history.
-- **Undercutting Detection**: Identifies when your items are undercut, helping you stay competitive on the market board.
-- **Multi-Character Support**: Consolidates data from all your characters to give you a complete market overview.
-- **Universalis Integration**: Uses Universalis to provide market price updates in real-time.
-- **Customizable Filters**: Filter sales data by various criteria such as item, date range, world, and more.
-- **Notifications**: Get notified when your items are sold or undercut.
-- **CSV Export**: Export your sales data for external analysis.
-- **Visual Overlays**: Includes overlay windows for easy tracking of retainer sales and undercutting.
+- **雇员销售追踪**：自动追踪所有角色的雇员上架物品。
+- **历史销售记录**：保存过往销售记录，方便查看和分析销售历史。
+- **压价检测**：发现其他卖家以更低价格出售同类物品时发出提示，帮助你保持市场竞争力。
+- **多角色支持**：汇总所有角色的数据，全面掌握市场交易情况。
+- **Universalis 集成**：通过 Universalis 获取实时市场价格更新。
+- **自定义筛选**：按物品、日期范围、服务器等条件筛选销售数据。
+- **通知提醒**：物品售出或被其他卖家压价时收到通知。
+- **CSV 导出**：将销售数据导出为 CSV，方便使用其他工具分析。
+- **悬浮窗口**：通过悬浮窗口便捷查看雇员销售和压价情况。
 
-## Getting Started
+## 开始使用
 
-1. Install Allagan Market through the Dalamud plugin installer.
-2. A configuration wizard will come up when the plugin is initially installed.
-3. Once configured, visit each of your retainers to perform an initial scan.
+1. 通过 Dalamud 插件安装器安装 Allagan Market。
+2. 首次安装后，插件会显示配置向导。
+3. 完成配置后，依次访问每位雇员，进行首次扫描。
 
-## Commands
+## 命令
 
-- `/allaganmarket` or `/amarket` - Opens the main plugin window.
+- `/allaganmarket` 或 `/amarket`：打开插件主窗口。
 
-## Dependencies
+## 依赖
 
-This plugin relies on several core libraries and services:
-- **Universalis API**: For real-time market price updates.
-- **AllaganLib**: A helper library 
+本插件依赖以下核心库和服务：
 
-## Contributing
+- **Universalis API**：提供实时市场价格更新。
+- **AllaganLib**：辅助功能库。
 
-Contributions are welcome! Feel free to open issues or submit pull requests on the GitHub repository.
+## 参与贡献
 
-## Check out my other plugins
+欢迎参与贡献！你可以在本 GitHub 仓库提交问题（Issue）或拉取请求（Pull Request）。
 
-- [Allagan Tools](https://github.com/Critical-Impact/InventoryTools)
-- [Allagan Item Search](https://github.com/Critical-Impact/AllaganItemSearch)
-- [Allagan Market](https://github.com/Critical-Impact/AllaganMarket)
-- [Allagan Tetris](https://github.com/Critical-Impact/AllaganTetris)
-- [Tippy](https://github.com/Critical-Impact/Tippy)
-- [Automount BGM](https://github.com/Critical-Impact/AutoMountBgm)
-- [Fantasy Player](https://github.com/Critical-Impact/FantasyPlayer)
+## 我的其他插件
 
+- [幻化之王 / GlamourKing](https://github.com/Momikk/GlamourKing)
